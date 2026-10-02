@@ -133,19 +133,11 @@ a:focus-visible {
   letter-spacing: .02em;
 }
 
-h1, h2, h3, p, blockquote { text-wrap: pretty; }
-
-h1 {
-  margin: 0;
-  font-size: clamp(2.25rem, 6vw, 3.35rem);
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: -.035em;
-}
+h2, h3, p, blockquote { text-wrap: pretty; }
 
 .lede {
   max-width: 62ch;
-  margin: 10px 0 0;
+  margin: 0;
   font-size: 1.08rem;
   line-height: 1.45;
 }
