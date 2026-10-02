@@ -16,8 +16,8 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 18px;
-  line-height: 1.58;
+  font-size: 17px;
+  line-height: 1.5;
   text-rendering: optimizeLegibility;
 }
 
@@ -51,7 +51,7 @@ a:hover { color: var(--accent); }
 }
 
 .header-inner {
-  min-height: 50px;
+  min-height: 44px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -74,7 +74,7 @@ a:hover { color: var(--accent); }
 }
 
 .site-name {
-  font-size: .78rem;
+  font-size: .72rem;
   font-weight: 800;
   letter-spacing: .05em;
   text-decoration: none;
@@ -84,12 +84,12 @@ a:hover { color: var(--accent); }
 .site-header nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 14px;
+  gap: 12px;
 }
 
 .site-header nav a {
   color: var(--muted);
-  font-size: .73rem;
+  font-size: .69rem;
   font-weight: 700;
   text-decoration: none;
 }
@@ -98,14 +98,14 @@ a:hover { color: var(--accent); }
 
 .intro {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 132px;
-  gap: 34px;
+  grid-template-columns: minmax(0, 1fr) 112px;
+  gap: 24px;
   align-items: start;
-  padding-block: 70px 62px;
+  padding-block: 42px 38px;
 }
 
 .headshot {
-  width: 132px;
+  width: 112px;
   aspect-ratio: 1;
   object-fit: cover;
   border-radius: 2px;
@@ -127,7 +127,7 @@ h1, h2, h3, p, blockquote { text-wrap: pretty; }
 
 h1 {
   margin: 0;
-  font-size: clamp(3.25rem, 10vw, 5.6rem);
+  font-size: clamp(2.55rem, 7vw, 4.15rem);
   font-weight: 500;
   line-height: .98;
   letter-spacing: -.045em;
@@ -135,9 +135,9 @@ h1 {
 
 .lede {
   max-width: 680px;
-  margin: 22px 0 0;
-  font-size: 1.28rem;
-  line-height: 1.45;
+  margin: 10px 0 0;
+  font-size: 1.12rem;
+  line-height: 1.42;
 }
 
 .quiet {
@@ -147,13 +147,13 @@ h1 {
 }
 
 .section {
-  padding-block: 54px 58px;
+  padding-block: 34px 38px;
   border-top: 1px solid var(--line);
 }
 
 h2 {
-  margin: 0 0 24px;
-  font-size: clamp(2rem, 6vw, 3.15rem);
+  margin: 0 0 16px;
+  font-size: clamp(1.65rem, 4.5vw, 2.35rem);
   font-weight: 500;
   line-height: 1.03;
   letter-spacing: -.035em;
@@ -161,7 +161,7 @@ h2 {
 
 h3 {
   margin: 0;
-  font-size: 1.28rem;
+  font-size: 1.12rem;
   font-weight: 600;
   line-height: 1.2;
 }
@@ -171,18 +171,18 @@ h3 {
 }
 
 .prose p {
-  margin: 0 0 .95em;
+  margin: 0 0 .72em;
 }
 
 .prose .lead {
-  font-size: 1.14rem;
+  font-size: 1.06rem;
 }
 
 .link-row {
   display: flex;
   flex-wrap: wrap;
   gap: 10px 18px;
-  margin-top: 20px;
+  margin-top: 14px;
   font-size: .82rem;
   font-weight: 750;
 }
@@ -194,8 +194,8 @@ h3 {
 .entry {
   display: grid;
   grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
-  gap: 34px;
-  padding: 20px 0 22px;
+  gap: 24px;
+  padding: 14px 0 16px;
   border-bottom: 1px solid var(--line);
   text-decoration: none;
 }
@@ -224,8 +224,8 @@ h3 {
 .project {
   display: grid;
   grid-template-columns: minmax(0,.8fr) minmax(0,1.2fr);
-  gap: 34px;
-  padding-top: 20px;
+  gap: 24px;
+  padding-top: 14px;
   border-top: 1px solid var(--ink);
 }
 
@@ -241,7 +241,7 @@ h3 {
 }
 
 .likes {
-  margin: 26px 0 0;
+  margin: 18px 0 0;
   border-top: 1px solid var(--line);
 }
 
@@ -249,7 +249,7 @@ h3 {
   display: grid;
   grid-template-columns: 145px 1fr;
   gap: 18px;
-  padding: 14px 0;
+  padding: 10px 0;
   border-bottom: 1px solid var(--line);
 }
 
@@ -267,14 +267,14 @@ h3 {
 }
 
 .closing {
-  padding-block: 64px;
+  padding-block: 38px;
   border-top: 1px solid var(--line);
 }
 
 .closing > p {
   max-width: 700px;
   margin: 0;
-  font-size: clamp(1.8rem, 5vw, 2.6rem);
+  font-size: clamp(1.45rem, 3.8vw, 1.95rem);
   line-height: 1.12;
   letter-spacing: -.025em;
 }
@@ -284,7 +284,7 @@ h3 {
 }
 
 .footer-inner {
-  min-height: 54px;
+  min-height: 44px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -416,16 +416,16 @@ h3 {
   }
 
   .intro {
-    grid-template-columns: 1fr 96px;
-    gap: 18px;
-    padding-block: 52px 48px;
+    grid-template-columns: 1fr 82px;
+    gap: 14px;
+    padding-block: 34px 32px;
   }
 
   .headshot {
-    width: 96px;
+    width: 82px;
   }
 
-  .section { padding-block: 42px 46px; }
+  .section { padding-block: 30px 34px; }
 
   .entry,
   .project {
