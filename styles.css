@@ -97,7 +97,19 @@ a:hover { color: var(--accent); }
 .site-header nav a:hover { color: var(--ink); }
 
 .intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 132px;
+  gap: 34px;
+  align-items: start;
   padding-block: 70px 62px;
+}
+
+.headshot {
+  width: 132px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 2px;
+  filter: saturate(.82) contrast(.98);
 }
 
 .eyebrow,
@@ -403,7 +415,15 @@ h3 {
     padding-block: 12px;
   }
 
-  .intro { padding-block: 52px 48px; }
+  .intro {
+    grid-template-columns: 1fr 96px;
+    gap: 18px;
+    padding-block: 52px 48px;
+  }
+
+  .headshot {
+    width: 96px;
+  }
 
   .section { padding-block: 42px 46px; }
 
