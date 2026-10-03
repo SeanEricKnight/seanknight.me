@@ -123,6 +123,26 @@ a:focus-visible {
   filter: saturate(.82) contrast(.98);
 }
 
+.section-photo {
+  margin: 18px 0 0;
+}
+
+.section-photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 2px;
+  filter: saturate(.78) contrast(.97);
+}
+
+.section-photo figcaption {
+  margin-top: 5px;
+  color: var(--muted);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: .64rem;
+}
+
 .eyebrow,
 .section-label,
 .article-kicker {
