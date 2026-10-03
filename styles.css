@@ -123,6 +123,33 @@ a:focus-visible {
   filter: saturate(.82) contrast(.98);
 }
 
+
+.question-sample {
+  margin: 18px 0 0;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.question-sample ul {
+  margin: 8px 0 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.question-sample li {
+  margin: 0 0 6px;
+}
+
+.question-sample a {
+  text-decoration-thickness: 1px;
+}
+
+.question-more {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: .82rem;
+  font-weight: 750;
+}
+
 .section-photo {
   margin: 18px 0 0;
 }
